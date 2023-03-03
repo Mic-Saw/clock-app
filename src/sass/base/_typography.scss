@@ -1,0 +1,61 @@
+@use "../abstracts/variables" as var;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: bold;
+  color: var.$color-white;
+}
+
+h1 {
+  font-size: 20rem;
+  line-height: 20rem;
+  letter-spacing: -0.5rem;
+}
+
+h2 {
+  font-size: 5.6rem;
+  line-height: 6.8rem;
+  color: var.$color-gray;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.48rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  color: var.$color-white;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: var.$color-gray;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}

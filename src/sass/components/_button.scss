@@ -1,0 +1,43 @@
+@use "/src/sass/abstracts/variables" as var;
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 16.5rem;
+  bottom: 9.8rem;
+  width: 14.6rem;
+  height: 5.6rem;
+  border: none;
+  border-radius: 2.8rem;
+  background-color: var.$color-white;
+
+  &-text {
+    margin-left: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    color: var.$color-gray;
+  }
+
+  &-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var.$color-gray;
+  }
+}
+
+.btn:hover {
+  cursor: pointer;
+
+  .btn-arrow {
+    background-color: #999999;
+  }
+}
